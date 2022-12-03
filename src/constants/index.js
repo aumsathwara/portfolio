@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, send, shield, star, vector  } from "../assets";
 
 export const navLinks = [
   {
@@ -166,8 +166,8 @@ export const social_links = [
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/profile.php?id=100007921637380",
+    icon: vector,
+    link: "https://github.com/aumsathwara",
   },
   {
     id: "social-media-3",

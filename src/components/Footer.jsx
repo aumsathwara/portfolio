@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from "../style";
-import { logo } from "../assets";
 import {  social_links } from "../constants";
 
 const Footer = () => (
