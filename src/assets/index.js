@@ -28,7 +28,7 @@ import rectangle from "./Rectangle-1.png";
 import rectangle2 from "./Rectangle-2.png";
 import rectangle3 from "./Rectangle-3.png";
 import rectangle4 from "./Rectangle-4.png";
-
+import vector from "./Vector.svg";
 
 export {
   airbnb,
@@ -61,4 +61,5 @@ export {
   rectangle2,
   rectangle3,
   rectangle4,
+  vector,
 };
