@@ -23,45 +23,50 @@ export const projects = [
   {
     id: "project-1",
     icon: star,
+    link: "https://github.com/aumsathwara/waste_management",
     title: "Waste Management",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Created a Machine Learning Model using Artificial Intelligence libraries like Keras and OpenCV that identifies the waste product and categorizes it into recycle, organic, plastic, and inorganic. Achieved accuracy of 78.34%.",
   },
   {
     id: "project-2",
     icon: shield,
+    link: "https://github.com/aumsathwara/waste_management",
     title: "Attendance System",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Created an Attendance System that could detect face and compare it with the database. If the face being detected matches data in the database then student's id is marked as present.",
   },
   {
     id: "project-3",
     icon: send,
+    link: "https://github.com/aumsathwara/book_listing",
     title: "Library Management",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Built a library management system in which the user can update, delete, add books. Created a secure login portal for the user to login and access database. Technologies worked on included Django, MySQL, Python, and AJAX",
   },
   {
     id: "project-2",
     icon: shield,
-    title: "Attendance System",
+    link: "https://github.com/aumsathwara/hand_tracking",
+    title: "Hand Tracking",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Developed a web application with the help of Node, AJAX and MediaPipe that tracks hand movement. Produced captivating animations with the help of the DOM concept and detected coordinates   of hand.",
   },
   {
     id: "project-2",
     icon: shield,
-    title: "Attendance System",
+    link: "https://github.com/aumsathwara/discord_bot",
+    title: " Discord Bot",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Built a Discord Bot from scratch using discord.py in Python that takes a user to a specified channel on specific interaction with a message, greets the user, keeps the community channel clean from spammy and explicit messages, and displays the live status of the community.",
   },
-  {
-    id: "project-2",
-    icon: shield,
-    title: "Attendance System",
-    content:
-      "We take proactive steps make sure your information and transactions are secure.",
-  },
+  // {
+  //   id: "project-2",
+  //   icon: shield,
+  //   title: "Attendance System",
+  //   content:
+  //     "We take proactive steps make sure your information and transactions are secure.",
+  // },
 
 ];
 

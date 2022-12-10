@@ -6,7 +6,7 @@ const styles = {
   
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",
-    styling: " grid grid-cols-1 gap-4 mt-8 2xl:grid-cols-2 lg:mt-16 md:grid-cols-2 lg:grid-cols-3",
+    styling: " grid grid-cols-1 gap-8 mt-8 2xl:grid-cols-1 lg:mt-16 md:grid-cols-2 lg:grid-cols-3",
     styling1: "flex items-center mt-6 -mx-2",
   
     paddingX: "sm:px-16 px-6",
