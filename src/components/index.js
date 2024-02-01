@@ -5,8 +5,6 @@ import Footer from './Footer';
 import Navbar from './Navbar';
 import Contact from './Contact';
 
-
-
 export {
     Navbar,
     Projects,

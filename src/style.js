@@ -6,7 +6,8 @@ const styles = {
   
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",
-    styling: " grid grid-cols-1 gap-8 mt-8 2xl:grid-cols-1 lg:mt-16 md:grid-cols-2 lg:grid-cols-3",
+    styling: " grid grid-cols-1 gap-8 mt-8 2xl:grid-cols-1 lg:mt-16 md:grid-cols-1 lg:grid-cols-3",
+    stylingImg: " grid grid-cols-1 gap-8 mt-8 2xl:grid-cols-1 lg:mt-16 md:grid-cols-1 lg:grid-cols-4",
     styling1: "flex items-center mt-6 -mx-2",
   
     paddingX: "sm:px-16 px-6",
@@ -23,6 +24,7 @@ const styles = {
   
     sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
     sectionImg: `flex-1 flex ${styles.styling} md:ml-10 mr-0 md:mt-0 mt-10 relative`,
+    sectionImg1: `flex-1 flex ${styles.stylingImg} md:ml-10 mr-0 md:mt-0 mt-10 relative`,
   
     sectionInfo: `flex-1 ${styles.flexStart} flex-col`,
   };

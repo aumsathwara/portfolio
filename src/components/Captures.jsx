@@ -1,8 +1,7 @@
 import React from 'react';
 import { Photos } from '../constants';
 import {layout} from '../style';
-
-
+// import { handleHateClick, handleLoveClick } from '../constants';
 
 const FeatureCard = ( {icon, url, content, index}) => (
   <div>
@@ -24,27 +23,28 @@ const Captures = () => {
 
   return (
     <section id="Photos" className={layout.section}>
-        <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px]'> 
-         Captures 
+      <h1 className='font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px]'> 
+      Captures 
         
-    {/* <div className='absolute z-[2]  w-[20%] h-[50%] rounded-full white__gradient'/> */}
-    <div className='absolute z-[0] -left w-[50%] h-[50%] rounded-full red__gradient '/>
-        
-      <div className={`${layout.sectionImg} flex justify-cente items-center z-[1]`}>
+      <div className='absolute z-[2]  w-[20%] h-[50%] rounded-full white__gradient'/>
+      <div className='absolute z-[0] -left w-[50%] h-[50%] rounded-full red__gradient '/>
+          
+      <div className={`${layout.sectionImg1} flex justify-cente items-center z-[1]`}>
 
         {Photos.map((photo, index) => (
             <FeatureCard key={photo.id} {...photo}  /> 
             // index={index}
-            
+
           ))}
           
-      </div>
-
-    </h1>
+      </div> 
+      </h1>        
+      
 
     </section>
   )
 }
+
 
 export default Captures
 
